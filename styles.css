@@ -1,0 +1,31 @@
+body {
+    background: black;
+    text-align: center;
+  }
+
+  h1{
+    color: white;
+  }
+  
+  .frame {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .circle {
+    height: 100px;
+    width: 100px;
+    background: silver;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  
